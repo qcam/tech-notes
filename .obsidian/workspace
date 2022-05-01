@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "1c45d8bf68067969",
+    "type": "split",
+    "children": [
+      {
+        "id": "901f2e10f948e0b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "magic-whitepaper.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "858fda2e5c529f89",
+    "type": "split",
+    "children": [
+      {
+        "id": "c240561acdaadbc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e61c8c6a86fd9162",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "dd6a86a2fd23f60f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "883577c9a8b80bd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "cafb424461638ab3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df64ef7a5e917e98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "magic-whitepaper.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "901f2e10f948e0b5",
+  "lastOpenFiles": [
+    "magic-whitepaper.md",
+    "magic-whitepaper/noncustodial.png"
+  ]
+}
