@@ -69,7 +69,7 @@ Như vậy ta đã biết server sẽ xác minh người dùng như thế nào. 
 	- Attacker cần phải access được hardware để tấn công
 	- Attacker chỉ có thể tấn công trong môi trường "hostile" của Magic -> cho phép detect, mitigate ...
 #### Non-Custodial
-![noncustodial.png](magic-whitepaper/noncustodial.png)
+![noncustodial.png](./_images/magic-whitepaper/noncustodial.png)
 
 - Private keys của người dùng không được "thấy" bởi Magic
 - Encryption và decryption được thực hiện bởi AWS KMS (HSM) kết hợp với AWS Cognito.

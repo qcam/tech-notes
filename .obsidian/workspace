@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
-            "mode": "source",
-            "source": false
+            "file": "magic-whitepaper.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "magic-whitepaper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,11 @@
   },
   "active": "901f2e10f948e0b5",
   "lastOpenFiles": [
-    "index.md",
-    "dispatch-techniques.md",
     "magic-whitepaper.md",
+    "dispatch-techniques.md",
+    "index.md",
     "homoiconicity.md",
-    "magic-whitepaper/noncustodial.png"
+    "_images/dispatch-techniques/direct-call-threading.png",
+    "_images/magic-whitepaper/noncustodial.png"
   ]
 }

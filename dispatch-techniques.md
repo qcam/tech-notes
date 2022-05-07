@@ -14,7 +14,7 @@ Mã giả như vầy: ta có `vPC` là một cái biến chứa tập instructio
 - nếu cần branching có thể được thực hiện trong instructions (gán `vPC` thành cái khác)
 - 
 
-![switch-dispatch](./dispatch-techniques/switch-dispatch.png)
+![switch-dispatch](_images/dispatch-techniques/switch-dispatch.png)
 
 - Phương thức dispatch đơn giản nhất.
 - **Cũng là chậm nhất**, vì overhead của dispatch loop và câu lệnh `switch`.
@@ -23,7 +23,7 @@ Mã giả như vầy: ta có `vPC` là một cái biến chứa tập instructio
 ## Direct Call Threading
 Mỗi instruction được viết thành một hàm và dispatch dùng function pointer (`vPC` lúc này là cái function pointer).
 
-![direct call threading](dispatch-techniques/direct-call-threading.png)
+![direct call threading](./_images/dispatch-techniques/direct-call-threading.png)
 
 - mình dùng **cái address của function** để lấy function body thay vì xài 1 cái mapping table như switch-based dispatching ở trên.
 - Mặc dù có tên là "direct", nó thực ra là một cái *indirect* function call (bạn phải gọi thông qua một cái function signature).
@@ -31,7 +31,7 @@ Mỗi instruction được viết thành một hàm và dispatch dùng function 
 
 ## Direct Threading
 
-![direct threading](dispatch-techniques/direct-threading.png)
+![direct threading](./_images/dispatch-techniques/direct-threading.png)
 
 * Giống như direct call threading, chương trình được load vào interpreter là một cái Direct Threading Table (DTT) - một list *body address và toán tử (operands)*.
 * direct-threaded interpreter không cần vòng lặp while. Trong mỗi hàm ta thấy `goto *vPC++` sẽ đưa ta tới instruction label tiếp theo.
